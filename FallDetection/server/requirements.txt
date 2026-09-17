@@ -1,0 +1,25 @@
+# --- Core ML ---
+ultralytics==8.4.154
+torch==2.14.0
+torchvision==0.29.0
+
+# --- Vision ---
+opencv-python==5.0.0.93
+numpy==2.5.3
+pillow==12.3.0
+
+# --- Data / training ---
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+
+# --- Web server ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+requests==2.34.2
+
+# --- Utilities (pulled in transitively, pinned for reproducibility) ---
+polars==1.44.2
+psutil==7.2.2
+pyyaml==6.0.3
